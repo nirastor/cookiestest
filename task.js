@@ -7,7 +7,7 @@ elSubscribeModalClose.addEventListener('click', () => {
 });
 
 function wasShowModal() {
-    return (";" + document.cookie).includes(';modalwasshown=');
+    return ("; " + document.cookie).includes('; modalwasshown=');
 }
 
 function showSubscribeModal() {
