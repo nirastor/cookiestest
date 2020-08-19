@@ -3,7 +3,7 @@ const elSubscribeModalClose = elSubscribeModal.querySelector('.modal__close');
 
 elSubscribeModalClose.addEventListener('click', () => {
     elSubscribeModal.classList.remove('modal_active');
-    document.cookie = 'mynewcoocie=any; Expires=Mon, 31 Aug 2020 21:41:37 GMT';
+    document.cookie = 'mynewcoocie; Expires=Mon, 31 Aug 2020 21:41:37 GMT';
 });
 
 function wasShowModal() {
